@@ -11,7 +11,7 @@ HTML, CSS, JS
 ### 3-4월
 - HTML, CSS 공부
 ### 5월
-- Javascript 공부
+- JS 공부
 - 프로젝트 기획
 ### 6월 
 - 프론트엔드 개발

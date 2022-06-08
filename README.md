@@ -2,7 +2,7 @@
 ---
 
 ## 기술 스택
-HTML, CSS, Javascript
+HTML, CSS, J
 
 ## 주제
 명언으로 동기부여하는 투두리스트 웹사이트

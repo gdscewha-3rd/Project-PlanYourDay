@@ -2,12 +2,12 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 
-//¹İº¹µÇ´Â stringµéÀ» ´ë¹®ÀÚ º¯¼ö·Î ÀúÀåÇØ¼­ ¿ÀÅ¸·Î ÀÎÇÑ ¿¡·¯ ¹æÁö
+//ë°˜ë³µë˜ëŠ” string ëŒ€ë¬¸ì ë³€ìˆ˜ë¡œ ì €ì¥í•´ì„œ ì˜¤íƒ€ë¡œ ì¸í•œ ì—ëŸ¬ ë°©ì§€
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
 function onLoginSubmit(event) {
-    event.preventDefault();     //ºê¶ó¿ìÀúÀÇ ±âº» µ¿ÀÛ ¹æÁö
+    event.preventDefault();     //ë¸Œë¼ìš°ì €ì˜ ê¸°ë³¸ ë™ì‘ ë°©ì§€
     loginForm.classList.add(HIDDEN_CLASSNAME);
     const username = loginInput.value;
     localStorage.setItem(USERNAME_KEY, username);
